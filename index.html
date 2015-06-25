@@ -1,5 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<!--
+	Univeristy of Hawaii Accounting Club Website redesign
+	
+	Created Summer 2015 with the permission of
+	
+	President: Ivonne Lee
+	Treasurer: Daniel Lee
+	Director of IS: Teal Hoopii
+	
+	Authors:
+	- Myles Enriquez
+	- Eric Tomiyasu
+	- Brice Okubo
+	- Nicole Mau
+	- Lori Fukumura
+	
+-->
+
+<!-- UPDATED 6/24 8:26PM
+
+	Added Skeleton for website 
+	- Header
+		- Padding CSS File
+		- Nav Bar that follows user
+	- Body 
+		- Skeleton
+			- Picture Section
+			- About Us Section
+			- Executive Board Section
+			- General Board Section
+			- Calendar
+			- Contact Us Section
+	- Footer
+		- Archive
+		- Links
+		- Who is IMA
+		
+	For Each section there are comments above it that state what
+	is required in each section.  It is subject to change	
+
+-->
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
@@ -13,32 +55,323 @@
 		<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">	
 		<link href="css/bootstrap.min.css" rel="stylesheet" >
 		<link href="css/style.css" rel="stylesheet">
+		<link href="css/padding.css" rel="stylesheet"> <!--Added-->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> <!--Added-->
+		<script src="js/main.js"></script> <!--Added-->
 	</head>
-	<body>
-		<!--Header Section for navbar
-			=============================================================================-->
-			
-		<!--Logo banner Section
-			=============================================================================-->
-			
-		<!--About us Section
-			=============================================================================-->
-			
-		<!--Executive Board Section
-			=============================================================================-->
-			
-		<!--Membership Section
-			=============================================================================-->
-			
-		<!--Calendar Section
-			=============================================================================-->
-			
-		<!--Footer Section for "not important" links
-			=============================================================================-->
+
+    <body id="page-top" class="index">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#page-top">University of Hawaii Accounting Club</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <!-- This section of code is the tool bar that scrolls down to sections on Website -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#about">About US</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#executiveboard">The Board</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#membership">Membership</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#calendar/events">Calendar/Events</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+		<section id ="home">
+            <div class="container">
+            	<div class="row">
+            		
+            	</div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+						<h1>ACCOUNTING CLUB WEBSITE</h1>
+						<p>BIG PICTURE HERE OR SOMETHING</p>
+                    </div>
+                </div>
+                <hr class="star-light">
+            </div>
+		</section>
 		
-		<!--Scripts so we can use Bootstrap's JS and jQuery (Keep at end of HTML file)
-			=============================================================================-->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="js/main.js"></script>
-	</body>
+        <!-- About Us Section -->  
+        
+        <!--
+        	This is the about us section contains general overview of what AC is about
+        	
+        	- Image
+			- Text
+			- Read More button
+
+        -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>About Us</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <p>
+					    	Accounting Club is a business organiaztion from Shidler college of business that does stuff.
+					    </p>
+                    </div>
+                </div>
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+                    	<a href="#" class="btn btn-lg btn-outline">
+                       	<i class="fa fa-download">Click Me</i> 
+                    	</a>
+                	</div>
+				</div>
+                <hr class="star-light">
+            </div>
+        </section>    
+        
+		<!-- The Board Section -->
+		
+		<!-- 
+			This is the current Executive Boarc section this section will contain
+			
+			- Picture
+			- Position
+			- Name
+			- Email
+			
+		-->	
+		<section class = "success" id="executiveboard">
+			<div class="container">
+			    <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Executive Board</h2>
+                    </div>
+                </div>
+				<div class ="row">
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>email</p>
+						<p>name</p>
+					</div>
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>email</p>
+						<p>name</p>
+					</div>
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>email</p>
+						<p>name</p>
+					</div>
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>email</p>
+						<p>name</p>
+					</div>
+				</div>
+				<div class ="row">
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>email</p>
+						<p>name</p>
+					</div>
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>email</p>
+						<p>name</p>
+					</div>
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>email</p>
+						<p>name</p>
+					</div>
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>email</p>
+						<p>name</p>
+					</div>
+				</div>
+				<div class ="row">
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>email</p>
+						<p>name</p>
+					</div>
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>email</p>
+						<p>name</p>
+					</div>
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>email</p>
+						<p>name</p>
+					</div>
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>email</p>
+						<p>name</p>
+					</div>
+				</div>
+				<hr class="star-light">
+			</div>
+		</section>
+		
+        <!-- Membership Section -->
+        
+        <!--
+        	This is the Membership section and should contain the following info
+        	
+        	- How to join
+			- Benefits
+			- How to make active status
+			- Forms for membership, active status, and events
+			- Reference to an EB member to have more information about waivers and other information
+
+        -->	
+        <section class="success" id="membership">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>General Membership</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class ="col-sm-4 text-center">
+                        <h3>Step 1</h3>
+                        <p>Go to Intro Meeting</p>
+                    </div>
+                   <div class ="col-sm-4 text-center">
+                        <h3>Step 2</h3>
+                        <p>Join Accounting Club</p>
+                    </div>
+                    <div class ="col-sm-4 text-center">
+                        <h3>Step 3</h3>
+                        <p>Profit (aka get a bombass job)</p>
+                    </div>
+                    
+                </div>
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+                    	<a href="#" class="btn btn-lg btn-outline">
+                       	<i class="fa fa-download">Click Me</i> 
+                    	</a>
+                	</div>
+				</div>
+                <hr class="star-light">
+            </div>
+        </section> 
+
+        <!-- Calendar Section -->
+        <!--
+        	This is the damn calendar, there are 2 options for this
+        	
+        	- Google Calendar (short term)
+        	- Wordpress Plugin (long term)
+        		- For this we have to figure out how it works and implement it properly
+        -->
+        <section id="tools">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h1>CALENDAR GOES HERE</h1>
+                    </div>
+                </div>
+                <hr class="star-light">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        
+        <!--
+        	Contains following info
+        	
+        	- AC email
+        	- Current President
+        	- Presidents Email
+        	- Current Advisor
+        	- Advisor Email
+        	- AC mailing address
+        	
+        -->	
+        <section class="success" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Contact Us!</h2>
+                    </div>
+                </div>
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+                    	<a href="#" class="btn btn-lg btn-outline">
+                       	<i class="fa fa-download">Click Me</i> 
+                    	</a>
+                	</div>
+				</div>
+                <hr class="star-light">
+            </div>
+        </section>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+        <div class="scroll-top page-scroll visible-xs visble-sm">
+            <a class="btn btn-primary" href="#page-top">
+                <i class="fa fa-chevron-up"></i>
+            </a>
+        </div>
+    </body>
+    <!-- Footer -->
+    <!-- Comments
+    	The Footer contains the following sections
+    	
+    	- Archive
+    	- Links
+    	- Who is IMA
+    	
+    	Each of these will have links that lead to their own respective pages
+    	containing information, pictures and other media that pertains to the
+    	topics which they are.
+    -->
+    <footer>
+    	<div class ="container">
+			<section class ="footer">	
+				<div class ="row">
+					<div class ="col-sm-4 text-center">
+                        <p>Archive</p>
+                    </div>
+                    <div class ="col-sm-4 text-center">
+                        <p>Links</p>
+                    </div>
+				<div class ="col-sm-4 text-center">
+                        <p>Who is IMA?</p>
+                    </div>
+				</div>
+			</section>
+		</div>
+    </footer>
 </html>
