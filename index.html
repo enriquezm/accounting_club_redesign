@@ -1,377 +1,632 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!--
+	<!--
 	Univeristy of Hawaii Accounting Club Website redesign
-	
+
 	Created Summer 2015 with the permission of
-	
+
 	President: Ivonne Lee
 	Treasurer: Daniel Lee
 	Director of IS: Teal Hoopii
-	
+
 	Authors:
 	- Myles Enriquez
 	- Eric Tomiyasu
 	- Brice Okubo
 	- Nicole Mau
 	- Lori Fukumura
+
+	-->
 	
--->
-
-<!-- UPDATED 6/24 8:26PM
-
-	Added Skeleton for website 
-	- Header
-		- Padding CSS File
-		- Nav Bar that follows user
-	- Body 
-		- Skeleton
-			- Picture Section
-			- About Us Section
-			- Executive Board Section
-			- General Board Section
-			- Calendar
-			- Contact Us Section
-	- Footer
-		- Archive
-		- Links
-		- Who is IMA
+	<!-- UPDATED 6/29 9:53PM
 		
-	For Each section there are comments above it that state what
-	is required in each section.  It is subject to change	
+	Added Modals to botton of body
+	Added By: Eric Tomiyasu
+	- About Us Modal
+	- General Membership Modal
+	- Contact Us Modal	
+		
+	-->	
 
--->
+	<!-- UPDATED 6/24 8:26PM
+
+	Added Skeleton for website
+	Added By: Eric Tomiyasu
+	- Header
+	- Padding CSS File
+	- Nav Bar that follows user
+	- Body
+	- Skeleton
+	- Picture Section
+	- About Us Section
+	- Executive Board Section
+	- General Board Section
+	- Calendar
+	- Contact Us Section
+	- Footer
+	- Archive
+	- Links
+	- Who is IMA
+
+	For Each section there are comments above it that state what
+	is required in each section.  It is subject to change
+
+	-->
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="">
 		<meta name="author" content="">
-		
+
 		<title>UH Accounting Club</title>
-		
+
 		<link rel="icon" href="">
-		<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">	
+		<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 		<link href="css/bootstrap.min.css" rel="stylesheet" >
 		<link href="css/style.css" rel="stylesheet">
-		<link href="css/padding.css" rel="stylesheet"> <!--Added-->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> <!--Added-->
-		<script src="js/main.js"></script> <!--Added-->
+		<link href="css/padding.css" rel="stylesheet">
+		<!--Added-->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<!--Added-->
+		<script src="js/main.js"></script>
+		<!--Added-->
 	</head>
 
-    <body id="page-top" class="index">
+	<body id="page-top" class="index">
 
-        <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#page-top">University of Hawaii Accounting Club</a>
-                </div>
+		<!-- Navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header page-scroll">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#page-top">University of Hawaii Accounting Club</a>
+				</div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <!-- This section of code is the tool bar that scrolls down to sections on Website -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="hidden">
-                            <a href="#page-top"></a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#home">Home</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#about">About US</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#executiveboard">The Board</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#membership">Membership</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#calendar/events">Calendar/Events</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#contact">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<!-- This section of code is the tool bar that scrolls down to sections on Website -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="hidden">
+							<a href="#page-top"></a>
+						</li>
+						<li class="page-scroll">
+							<a href="#home">Home</a>
+						</li>
+						<li class="page-scroll">
+							<a href="#about">About US</a>
+						</li>
+						<li class="page-scroll">
+							<a href="#executiveboard">The Board</a>
+						</li>
+						<li class="page-scroll">
+							<a href="#membership">Membership</a>
+						</li>
+						<li class="page-scroll">
+							<a href="#calendar/events">Calendar/Events</a>
+						</li>
+						<li class="page-scroll">
+							<a href="#contact">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
 		<section id ="home">
-            <div class="container">
-            	<div class="row">
-            		
-            	</div>
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-						<h1>ACCOUNTING CLUB WEBSITE</h1>
-						<p>BIG PICTURE HERE OR SOMETHING</p>
-                    </div>
-                </div>
-                <hr class="star-light">
-            </div>
-		</section>
-		
-        <!-- About Us Section -->  
-        
-        <!--
-        	This is the about us section contains general overview of what AC is about
-        	
-        	- Image
-			- Text
-			- Read More button
-
-        -->
-        <section id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2>About Us</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <p>
-					    	Accounting Club is a business organiaztion from Shidler college of business that does stuff.
-					    </p>
-                    </div>
-                </div>
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2 text-center">
-                    	<a href="#" class="btn btn-lg btn-outline">
-                       	<i class="fa fa-download">Click Me</i> 
-                    	</a>
-                	</div>
-				</div>
-                <hr class="star-light">
-            </div>
-        </section>    
-        
-		<!-- The Board Section -->
-		
-		<!-- 
-			This is the current Executive Boarc section this section will contain
-			
-			- Picture
-			- Position
-			- Name
-			- Email
-			
-		-->	
-		<section class = "success" id="executiveboard">
 			<div class="container">
-			    <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2>Executive Board</h2>
-                    </div>
-                </div>
-				<div class ="row">
-					<div class ="col-sm-3 text-center">
-						<h3>Picture</h3>
-						<p>email</p>
-						<p>name</p>
-					</div>
-					<div class ="col-sm-3 text-center">
-						<h3>Picture</h3>
-						<p>email</p>
-						<p>name</p>
-					</div>
-					<div class ="col-sm-3 text-center">
-						<h3>Picture</h3>
-						<p>email</p>
-						<p>name</p>
-					</div>
-					<div class ="col-sm-3 text-center">
-						<h3>Picture</h3>
-						<p>email</p>
-						<p>name</p>
-					</div>
+				<div class="row">
+
 				</div>
-				<div class ="row">
-					<div class ="col-sm-3 text-center">
-						<h3>Picture</h3>
-						<p>email</p>
-						<p>name</p>
-					</div>
-					<div class ="col-sm-3 text-center">
-						<h3>Picture</h3>
-						<p>email</p>
-						<p>name</p>
-					</div>
-					<div class ="col-sm-3 text-center">
-						<h3>Picture</h3>
-						<p>email</p>
-						<p>name</p>
-					</div>
-					<div class ="col-sm-3 text-center">
-						<h3>Picture</h3>
-						<p>email</p>
-						<p>name</p>
-					</div>
-				</div>
-				<div class ="row">
-					<div class ="col-sm-3 text-center">
-						<h3>Picture</h3>
-						<p>email</p>
-						<p>name</p>
-					</div>
-					<div class ="col-sm-3 text-center">
-						<h3>Picture</h3>
-						<p>email</p>
-						<p>name</p>
-					</div>
-					<div class ="col-sm-3 text-center">
-						<h3>Picture</h3>
-						<p>email</p>
-						<p>name</p>
-					</div>
-					<div class ="col-sm-3 text-center">
-						<h3>Picture</h3>
-						<p>email</p>
-						<p>name</p>
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h1>ACCOUNTING CLUB WEBSITE</h1>
+						<p>
+							BIG PICTURE HERE OR SOMETHING
+						</p>
 					</div>
 				</div>
 				<hr class="star-light">
 			</div>
 		</section>
-		
-        <!-- Membership Section -->
-        
-        <!--
-        	This is the Membership section and should contain the following info
-        	
-        	- How to join
-			- Benefits
-			- How to make active status
-			- Forms for membership, active status, and events
-			- Reference to an EB member to have more information about waivers and other information
 
-        -->	
-        <section class="success" id="membership">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2>General Membership</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class ="col-sm-4 text-center">
-                        <h3>Step 1</h3>
-                        <p>Go to Intro Meeting</p>
-                    </div>
-                   <div class ="col-sm-4 text-center">
-                        <h3>Step 2</h3>
-                        <p>Join Accounting Club</p>
-                    </div>
-                    <div class ="col-sm-4 text-center">
-                        <h3>Step 3</h3>
-                        <p>Profit (aka get a bombass job)</p>
-                    </div>
-                    
-                </div>
+		<!-- About Us Section -->
+
+		<!--
+		This is the about us section contains general overview of what AC is about
+
+		- Image
+		- Text
+		- Read More button
+
+		-->
+		<section id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2>About Us</h2>
+					</div>
+				</div>
 				<div class="row">
 					<div class="col-lg-8 col-lg-offset-2 text-center">
-                    	<a href="#" class="btn btn-lg btn-outline">
-                       	<i class="fa fa-download">Click Me</i> 
-                    	</a>
-                	</div>
+						<p>
+							Accounting Club is a business organiaztion from Shidler college of business that does stuff.
+						</p>
+					</div>
 				</div>
-                <hr class="star-light">
-            </div>
-        </section> 
-
-        <!-- Calendar Section -->
-        <!--
-        	This is the damn calendar, there are 2 options for this
-        	
-        	- Google Calendar (short term)
-        	- Wordpress Plugin (long term)
-        		- For this we have to figure out how it works and implement it properly
-        -->
-        <section id="tools">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h1>CALENDAR GOES HERE</h1>
-                    </div>
-                </div>
-                <hr class="star-light">
-            </div>
-        </section>
-
-        <!-- About Section -->
-        
-        <!--
-        	Contains following info
-        	
-        	- AC email
-        	- Current President
-        	- Presidents Email
-        	- Current Advisor
-        	- Advisor Email
-        	- AC mailing address
-        	
-        -->	
-        <section class="success" id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2>Contact Us!</h2>
-                    </div>
-                </div>
 				<div class="row">
 					<div class="col-lg-8 col-lg-offset-2 text-center">
-                    	<a href="#" class="btn btn-lg btn-outline">
-                       	<i class="fa fa-download">Click Me</i> 
-                    	</a>
-                	</div>
+						<a href="#" class="btn btn-lg btn-outline"> <!-- Trigger the modal with a button -->
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#aboutModal">
+							Read More
+						</button> </a>
+					</div>
 				</div>
-                <hr class="star-light">
-            </div>
-        </section>
-        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-        <div class="scroll-top page-scroll visible-xs visble-sm">
-            <a class="btn btn-primary" href="#page-top">
-                <i class="fa fa-chevron-up"></i>
-            </a>
-        </div>
-    </body>
-    <!-- Footer -->
-    <!-- Comments
-    	The Footer contains the following sections
-    	
-    	- Archive
-    	- Links
-    	- Who is IMA
-    	
-    	Each of these will have links that lead to their own respective pages
-    	containing information, pictures and other media that pertains to the
-    	topics which they are.
-    -->
-    <footer>
-    	<div class ="container">
-			<section class ="footer">	
+				<hr class="star-light">
+			</div>
+		</section>
+
+		<!-- The Board Section -->
+
+		<!--
+		This is the current Executive Boarc section this section will contain
+
+		- Picture
+		- Position
+		- Name
+		- Email
+
+		-->
+		<section class = "success" id="executiveboard">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2>Executive Board</h2>
+					</div>
+				</div>
+				<div class ="row">
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>
+							email
+						</p>
+						<p>
+							name
+						</p>
+					</div>
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>
+							email
+						</p>
+						<p>
+							name
+						</p>
+					</div>
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>
+							email
+						</p>
+						<p>
+							name
+						</p>
+					</div>
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>
+							email
+						</p>
+						<p>
+							name
+						</p>
+					</div>
+				</div>
+				<div class ="row">
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>
+							email
+						</p>
+						<p>
+							name
+						</p>
+					</div>
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>
+							email
+						</p>
+						<p>
+							name
+						</p>
+					</div>
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>
+							email
+						</p>
+						<p>
+							name
+						</p>
+					</div>
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>
+							email
+						</p>
+						<p>
+							name
+						</p>
+					</div>
+				</div>
+				<div class ="row">
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>
+							email
+						</p>
+						<p>
+							name
+						</p>
+					</div>
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>
+							email
+						</p>
+						<p>
+							name
+						</p>
+					</div>
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>
+							email
+						</p>
+						<p>
+							name
+						</p>
+					</div>
+					<div class ="col-sm-3 text-center">
+						<h3>Picture</h3>
+						<p>
+							email
+						</p>
+						<p>
+							name
+						</p>
+					</div>
+				</div>
+				<hr class="star-light">
+			</div>
+		</section>
+
+		<!-- Membership Section -->
+
+		<!--
+		This is the Membership section and should contain the following info
+
+		- How to join
+		- Benefits
+		- How to make active status
+		- Forms for membership, active status, and events
+		- Reference to an EB member to have more information about waivers and other information
+
+		-->
+		<section class="success" id="membership">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2>General Membership</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class ="col-sm-4 text-center">
+						<h3>Step 1</h3>
+						<p>
+							Go to Intro Meeting
+						</p>
+					</div>
+					<div class ="col-sm-4 text-center">
+						<h3>Step 2</h3>
+						<p>
+							Join Accounting Club
+						</p>
+					</div>
+					<div class ="col-sm-4 text-center">
+						<h3>Step 3</h3>
+						<p>
+							Profit (aka get a bombass job)
+						</p>
+					</div>
+
+				</div>
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<a href="#" class="btn btn-lg btn-outline"> <!-- Trigger the modal with a button -->
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#memberModal">
+							Read More
+						</button> </a>
+					</div>
+				</div>
+				<hr class="star-light">
+			</div>
+		</section>
+
+		<!-- Calendar Section -->
+		<!--
+		This is the damn calendar, there are 2 options for this
+
+		- Google Calendar (short term)
+		- Wordpress Plugin (long term)
+		- For this we have to figure out how it works and implement it properly
+		-->
+		<section id="tools">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h1>CALENDAR GOES HERE</h1>
+					</div>
+				</div>
+				<hr class="star-light">
+			</div>
+		</section>
+
+		<!-- About Section -->
+
+		<!--
+		Contains following info
+
+		- AC email
+		- Current President
+		- Presidents Email
+		- Current Advisor
+		- Advisor Email
+		- AC mailing address
+
+		-->
+		<section class="success" id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2>Contact Us!</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<a href="#" class="btn btn-lg btn-outline"> <!-- Trigger the modal with a button -->
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#contactModal">
+							Read More
+						</button> </a>
+					</div>
+				</div>
+				<hr class="star-light">
+			</div>
+		</section>
+		<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+		<div class="scroll-top page-scroll visible-xs visble-sm">
+			<a class="btn btn-primary" href="#page-top"> <i class="fa fa-chevron-up"></i> </a>
+		</div>
+
+		<!-- MODAL SECTION-->
+		<!--					
+			This section contains the pop up modal windows when users press the "READ MORE" buttons
+			The modals have to be within the body of the HTML file and within their own seperate div sections
+			or they will not work properly
+			
+			- About Us Modal
+			- General Membership Modal
+			- Contact Us Modal
+		-->
+
+		<!-- Modals Have to be in Containers -->
+		<div class="container">
+			<!-- About Us Modal -->
+			<div class="modal fade" id="aboutModal" role="dialog">
+				<div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal"></button>
+							<h4 class="modal-title">
+							<c>
+								About Us
+							</c></h4>
+						</div>
+						<div class="modal-body">
+							<b>About Us</b>
+							<p>
+								Established in 1964, the Accounting Club is a proud Student Chapter of the Institute of Management Accountants whose main goal is to promote the professional and personal development of its members.
+
+								In cooperation with the School of Accountancy, we provide additional perspectives and supplemental information concerning public, private, and governmental accounting through carefully planned social and business-oriented events.
+
+								We continue to rank high among the largest student organizations within the Shidler College of Business and welcome students from all academic disciplines.
+							</p>
+
+							<b>Our Mission</b>
+							<p>
+								To provide members with opportunities for academic, personal, and professional development so they may contribute effectively and ethically to society and their organizations.
+								To serve the community and develop conscientious members of the community through participation in civic activities.
+								To build unity within the club while establishing friendships and networks that extend beyond the college career.
+								To educate members about the opportunities provided by all sectors of the accounting industry.
+								To aspire continuous improvement in all activities to ensure that members perform effectively in today's business environment.
+							</p>
+
+							<b>Benefits of Membership</b>
+							<p>
+								Exposure to the professional accounting environment through club-coordinated tours and professional interactions.
+								Access to up-to-date information through seminars and workshops conducted by University faculty and members of the business community.
+								Opportunity for networking and personal growth through social activities and sporting events.
+								Exposure to professional organizations which include, but not limited to: IIA (Institute of Internal Auditors), IMA (Institute of Management Accountants), HAPA (Hawai'i Association of Public Accountants), HSCPA (Hawai'i Society of Certified Public Accountants).
+							</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">
+								Close
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<!-- About Us Modal -->
+			<div class="modal fade" id="memberModal" role="dialog">
+				<div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal"></button>
+							<h4 class="modal-title">About Us</h4>
+						</div>
+						<div class="modal-body">
+							<b>How to Join</b>
+							<p>
+								The Accounting Club welcomes all students at the University of Hawaii at Manoa.
+	
+								Fill out a Membership Application
+								Membership dues: $40 per semester with Remittance Form
+								Cash and checks are accepted
+								Make checks payable to: UH Accounting Club
+	
+								Turn in Application and Dues
+								Bring to:
+								BusAd G201
+	
+								Mail to:
+								Accounting Club
+								University of Hawaii Shidler College of Business
+								2404 Maile Way BusAd E402
+								Honolulu, HI 96822
+							</p>
+							<b>Active Status</b>
+							<p>
+							Achieving active status is not a requirement to be in the club, although we strongly encourage all members to be active. Obtaining active status in the Accounting Club provides many benefits, including:
+
+							Being recognized at the end of the semester
+							Having your resume included in a resume booklet that will be sent to various firms
+							Obtaining valuable knowledge and experience from participating in a variety of events and interacting with different people.
+
+							To obtain active status, you must attend and actively participate in a set amount of all the Accounting Club's offered events. Mandatory events can not be waived unless otherwise approved by the executive board. Active status can not be achieved without fulfilling mandatory events requirements.
+
+							View the list of Active Status Requirements.
+							View the Active Status sheet in real time
+							</p>
+							<b>Waivers</b>
+							<p>
+							Required events may be waived by participating in any other additional event.
+							Required events may also be waived by fundraising an additional $15.
+
+							Conditions:
+
+							One event equals one waiver.
+							To waive an event using the General Meetings, you must attend all 5 meetings.
+							To waive the General Meetings, only one additional event is needed to waive the 3 General Meetings.
+							Only a maximum of two waivers will be allowed.
+							Members are required to attend at least one required event in each category to make active status.
+
+							To waive an event please complete and submit a Waiver Form . Use one form for each waiver.
+							</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">
+								Close
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<!-- Contact Us Modal -->
+			<div class="modal fade" id="contactModal" role="dialog">
+				<div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal"></button>
+							<h4 class="modal-title">About Us</h4>
+						</div>
+						<div class="modal-body">
+							<b>President</b>
+							<p>
+								Ivonne "Spawn of Cthulu" Lee
+							</p>
+							<b>Advisor</b>
+							<p>
+								Vacant
+							</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">
+								Close
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<!-- Footer -->
+	<!-- Comments
+	The Footer contains the following sections
+
+	- Archive
+	- Links
+	- Who is IMA
+
+	Each of these will have links that lead to their own respective pages
+	containing information, pictures and other media that pertains to the
+	topics which they are.
+	-->
+	<footer>
+		<div class ="container">
+			<section class ="footer">
 				<div class ="row">
 					<div class ="col-sm-4 text-center">
-                        <p>Archive</p>
-                    </div>
-                    <div class ="col-sm-4 text-center">
-                        <p>Links</p>
-                    </div>
-				<div class ="col-sm-4 text-center">
-                        <p>Who is IMA?</p>
-                    </div>
+						<p>
+							Archive
+						</p>
+					</div>
+					<div class ="col-sm-4 text-center">
+						<p>
+							Links
+						</p>
+					</div>
+					<div class ="col-sm-4 text-center">
+						<p>
+							Who is IMA?
+						</p>
+					</div>
 				</div>
 			</section>
 		</div>
-    </footer>
+	</footer>
+
+	<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap Example</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+
+	</body>
+</html>
+
 </html>
