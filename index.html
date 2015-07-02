@@ -19,15 +19,25 @@
 
 	-->
 	
-	<!-- UPDATED 6/29 9:53PM
+	<!-- UPDATE 7/1 9:03PM
 		
+	Added By: Eric Tomiyasu
+	Bootstrap features were not working properly.
+		
+	Resolution was CSS files were not being called properly
+	Calling files from online worked.
+		
+	-->
+
+	<!-- UPDATED 6/29 9:53PM
+
 	Added Modals to botton of body
 	Added By: Eric Tomiyasu
 	- About Us Modal
 	- General Membership Modal
-	- Contact Us Modal	
-		
-	-->	
+	- Contact Us Modal
+
+	-->
 
 	<!-- UPDATED 6/24 8:26PM
 
@@ -63,6 +73,9 @@
 		<title>UH Accounting Club</title>
 
 		<link rel="icon" href="">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 		<link href="css/bootstrap.min.css" rel="stylesheet" >
 		<link href="css/style.css" rel="stylesheet">
@@ -417,14 +430,14 @@
 		</div>
 
 		<!-- MODAL SECTION-->
-		<!--					
-			This section contains the pop up modal windows when users press the "READ MORE" buttons
-			The modals have to be within the body of the HTML file and within their own seperate div sections
-			or they will not work properly
-			
-			- About Us Modal
-			- General Membership Modal
-			- Contact Us Modal
+		<!--
+		This section contains the pop up modal windows when users press the "READ MORE" buttons
+		The modals have to be within the body of the HTML file and within their own seperate div sections
+		or they will not work properly
+
+		- About Us Modal
+		- General Membership Modal
+		- Contact Us Modal
 		-->
 
 		<!-- Modals Have to be in Containers -->
@@ -487,22 +500,22 @@
 					<div class="modal-content">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal"></button>
-							<h4 class="modal-title">About Us</h4>
+							<h4 class="modal-title">General Membership</h4>
 						</div>
 						<div class="modal-body">
 							<b>How to Join</b>
 							<p>
 								The Accounting Club welcomes all students at the University of Hawaii at Manoa.
-	
+
 								Fill out a Membership Application
 								Membership dues: $40 per semester with Remittance Form
 								Cash and checks are accepted
 								Make checks payable to: UH Accounting Club
-	
+
 								Turn in Application and Dues
 								Bring to:
 								BusAd G201
-	
+
 								Mail to:
 								Accounting Club
 								University of Hawaii Shidler College of Business
@@ -511,31 +524,31 @@
 							</p>
 							<b>Active Status</b>
 							<p>
-							Achieving active status is not a requirement to be in the club, although we strongly encourage all members to be active. Obtaining active status in the Accounting Club provides many benefits, including:
+								Achieving active status is not a requirement to be in the club, although we strongly encourage all members to be active. Obtaining active status in the Accounting Club provides many benefits, including:
 
-							Being recognized at the end of the semester
-							Having your resume included in a resume booklet that will be sent to various firms
-							Obtaining valuable knowledge and experience from participating in a variety of events and interacting with different people.
+								Being recognized at the end of the semester
+								Having your resume included in a resume booklet that will be sent to various firms
+								Obtaining valuable knowledge and experience from participating in a variety of events and interacting with different people.
 
-							To obtain active status, you must attend and actively participate in a set amount of all the Accounting Club's offered events. Mandatory events can not be waived unless otherwise approved by the executive board. Active status can not be achieved without fulfilling mandatory events requirements.
+								To obtain active status, you must attend and actively participate in a set amount of all the Accounting Club's offered events. Mandatory events can not be waived unless otherwise approved by the executive board. Active status can not be achieved without fulfilling mandatory events requirements.
 
-							View the list of Active Status Requirements.
-							View the Active Status sheet in real time
+								View the list of Active Status Requirements.
+								View the Active Status sheet in real time
 							</p>
 							<b>Waivers</b>
 							<p>
-							Required events may be waived by participating in any other additional event.
-							Required events may also be waived by fundraising an additional $15.
+								Required events may be waived by participating in any other additional event.
+								Required events may also be waived by fundraising an additional $15.
 
-							Conditions:
+								Conditions:
 
-							One event equals one waiver.
-							To waive an event using the General Meetings, you must attend all 5 meetings.
-							To waive the General Meetings, only one additional event is needed to waive the 3 General Meetings.
-							Only a maximum of two waivers will be allowed.
-							Members are required to attend at least one required event in each category to make active status.
+								One event equals one waiver.
+								To waive an event using the General Meetings, you must attend all 5 meetings.
+								To waive the General Meetings, only one additional event is needed to waive the 3 General Meetings.
+								Only a maximum of two waivers will be allowed.
+								Members are required to attend at least one required event in each category to make active status.
 
-							To waive an event please complete and submit a Waiver Form . Use one form for each waiver.
+								To waive an event please complete and submit a Waiver Form . Use one form for each waiver.
 							</p>
 						</div>
 						<div class="modal-footer">
@@ -556,7 +569,7 @@
 					<div class="modal-content">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal"></button>
-							<h4 class="modal-title">About Us</h4>
+							<h4 class="modal-title">Contact Us</h4>
 						</div>
 						<div class="modal-body">
 							<b>President</b>
