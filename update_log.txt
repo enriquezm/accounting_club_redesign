@@ -1,1 +1,100 @@
-//Updated log to keep track of website development
+<!-- Update 7/4 12:18 AM
+		
+	- Removed Updates from code and placed into UPDATE Log
+	- Changed Email buttons to fontawesome icons
+		- These icons are subject to change but just for now 
+		- We will be using Lori's icons in the future	
+	- Adding names for board as well...
+		- President: Ivonne Lee
+		- Secretary: Tori Tokunaga
+		- Dir. of Professional Relations: Brandon Wang
+		- Dir. of Internal Affairs: Andrew Tam
+		- Dir. of Student Relations: Henry Hui
+		- Dir. of Public Relations: Matt Lizada
+		- Dir. of Human Resources: Dahvon Siongco
+		- Dir. of Information Systems: Teal Hoopii
+		- IBC Senator: Amber Ching
+	- Commented out Redundant info in contact us Section it will be at Team Leads Discretion to remove or keep
+	
+	
+	-->
+
+	<!-- Update 7/3 7:10 PM
+		
+	Added By: Eric Tomiyasu
+	
+	- Added Contact Form (no functionality yet)
+	- Removed "Accounting club website" from top of page
+	- Added Google Calendar
+	- Edited Footer
+		- Added Linkin Icon Link
+		- Added Facebook Icon Link
+		- Added Instagram Icon Link
+		- Moved IMA (no Webpage Yet)
+		- Moved Links (no Webpage Yet)
+		- Moved Archice (no Webpage Yet)
+		- Added Copyright 
+		
+	-->
+
+	<!-- Update 7/1 10:43
+
+	Added by:Brice Okubo
+
+	-Added top image and image ico file
+	-Added icon for the <title>
+	-Added ac logo file
+	-editing padded file from 75pt to 50pt
+	-->
+
+	<!-- Update 7/1 10:00PM
+
+	Added by: Nicole Mau
+	- Pushed updated executive board
+
+	-->
+
+	<!-- UPDATE 7/1 9:03PM
+
+	Added By: Eric Tomiyasu
+	Bootstrap features were not working properly.
+
+	Resolution was CSS files were not being called properly
+	Calling files from online worked.
+
+	-->
+
+	<!-- UPDATED 6/29 9:53PM
+
+	Added Modals to botton of body
+	Added By: Eric Tomiyasu
+	- About Us Modal
+	- General Membership Modal
+	- Contact Us Modal
+
+	-->
+
+	<!-- UPDATED 6/24 8:26PM
+
+	Added Skeleton for website
+	Added By: Eric Tomiyasu
+	- Header
+	- Padding CSS File
+	- Nav Bar that follows user
+	- Body
+	- Skeleton
+	- Picture Section
+	- About Us Section
+	- Executive Board Section
+	- General Board Section
+	- Calendar
+	- Contact Us Section
+	- Footer
+	- Archive
+	- Links
+	- Who is IMA
+
+	For Each section there are comments above it that state what
+	is required in each section.  It is subject to change
+
+	-->
