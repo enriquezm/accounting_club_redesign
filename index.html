@@ -28,19 +28,15 @@
 		<title>UH Accounting Club</title>
 
 		<link rel="icon" href="">
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 		<link href="css/bootstrap.min.css" rel="stylesheet" >
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/padding.css" rel="stylesheet">
-		<!--Added-->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<!--Added-->
-		<script src="js/main.js"></script>
-		<!--Added-->
+	<!--
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	-->
 	</head>
 
 	<body id="page-top" class="index">
@@ -128,10 +124,7 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-8 col-lg-offset-2 text-center">
-						<a href="#" class="btn btn-lg btn-outline"> <!-- Trigger the modal with a button -->
-						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#aboutModal">
-							Read More
-						</button> </a>
+						<a class="btn btn-info btn-lg" data-toggle="modal" data-target="#aboutModal">Read More</a> 
 					</div>
 				</div>
 			</div>
@@ -530,6 +523,60 @@
 				</div>
 			</div>
 		</section>
+
+		<!-- Footer -->
+		<!-- Comments
+		The Footer contains the following sections
+
+		- Archive
+		- Links
+		- Who is IMA
+
+		Each of these will have links that lead to their own respective pages
+		containing information, pictures and other media that pertains to the
+		topics which they are.
+		-->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<span class="copyright">Copyright &copy; 2015 Accounting Club</span>
+					</div>
+					<div class="col-md-4 text-center">
+						<ul class="list-inline social-buttons">
+							<li>
+								<a href="https://instagram.com/ac_uhm/"><i class="fa fa-instagram fa-2x"></i></a>
+							</li>
+							<li>
+								<a href="https://www.facebook.com/acctclubuh?fref=ts"><i class="fa fa-facebook-square fa-2x"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+							</li>
+						</ul>
+					</div>
+					<!--These pages still need to be created-->
+					<div class="col-md-4 text-right">
+						<ul class="list-inline quicklinks">
+							<li>
+								<a href="#">Other Links</a>
+							</li>
+							<li>
+								<a href="#">IMA</a>
+							</li>
+							<li>
+								<a href="#">Archive</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--Added at end to load page first (speed)-->
+		<script src="js/jquery-2.1.4.min.js"></script><!-- Needed for jQuery use-->
+		<script src="js/bootstrap.min.js"></script><!-- Needed for Boostrap's JS-->
+		<script src="js/main.js"></script><!-- Needed for our own JS-->
+		
 		<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
 		<div class="scroll-top page-scroll visible-xs visble-sm">
 			<a class="btn btn-primary" href="#page-top"> <i class="fa fa-chevron-up"></i> </a>
@@ -546,8 +593,7 @@
 		- Contact Us Modal
 		-->
 
-		<!-- Modals Have to be in Containers -->
-		<div class="container">
+
 			<!-- About Us Modal -->
 			<div class="modal fade" id="aboutModal" role="dialog">
 				<div class="modal-dialog">
@@ -555,7 +601,7 @@
 					<!-- Modal content-->
 					<div class="modal-content">
 						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal"></button>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
 							<h4 class="modal-title">
 							<c>
 								About Us
@@ -596,7 +642,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+
 		<div class="container">
 			<!-- About Us Modal -->
 			<div class="modal fade" id="memberModal" role="dialog">
@@ -605,7 +651,7 @@
 					<!-- Modal content-->
 					<div class="modal-content">
 						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal"></button>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
 							<h4 class="modal-title">General Membership</h4>
 						</div>
 						<div class="modal-body">
@@ -667,52 +713,4 @@
 			</div>
 		</div>
 	</body>
-	<!-- Footer -->
-	<!-- Comments
-	The Footer contains the following sections
-
-	- Archive
-	- Links
-	- Who is IMA
-
-	Each of these will have links that lead to their own respective pages
-	containing information, pictures and other media that pertains to the
-	topics which they are.
-	-->
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<span class="copyright">Copyright &copy; 2015 Accounting Club</span>
-				</div>
-				<div class="col-md-4 text-center">
-					<ul class="list-inline social-buttons">
-						<li>
-							<a href="https://instagram.com/ac_uhm/"><i class="fa fa-instagram fa-2x"></i></a>
-						</li>
-						<li>
-							<a href="https://www.facebook.com/acctclubuh?fref=ts"><i class="fa fa-facebook-square fa-2x"></i></a>
-						</li>
-						<li>
-							<a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
-						</li>
-					</ul>
-				</div>
-				<!--These pages still need to be created-->
-				<div class="col-md-4 text-right">
-					<ul class="list-inline quicklinks">
-						<li>
-							<a href="#">Other Links</a>
-						</li>
-						<li>
-							<a href="#">IMA</a>
-						</li>
-						<li>
-							<a href="#">Archive</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</footer>
 </html>
