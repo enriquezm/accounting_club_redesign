@@ -6,7 +6,7 @@ $(document).ready(function(){
 	//Increased performance by caching $('html, body') selector
 	var $root = $('html, body');
 
-	$('a').click(function(){
+	$("a").click(function(){
 		$root.animate({
 			scrollTop: $( $.attr(this, 'href') ).offset().top
 		}, 1000);
