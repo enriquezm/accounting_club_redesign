@@ -1,0 +1,41 @@
+body {
+  font-size: 18px;
+}
+body nav.navbar {
+  padding: 10px 10px;
+}
+body section#about {
+  padding: 100px 70px 120px 70px;
+  color: #34495e;
+}
+body section#president-blurb {
+  padding: 70px 70px;
+  background-color: #01647e;
+  color: #edeff4;
+}
+body section#executiveboard {
+  padding: 100px 100px;
+}
+body section#testimonials {
+  padding: 80px 80px;
+  background-color: #01647e;
+  color: #edeff4;
+}
+body section#membership {
+  padding: 120px 120px;
+  color: #34495e;
+}
+body section#events {
+  padding: 70px 70px;
+  background-color: #033c4b;
+  color: #edeff4;
+}
+body section#contact {
+  padding: 120px 120px;
+  background-color: #01647e;
+  color: #edeff4;
+}
+body footer {
+  padding: 40px 40px;
+  color: #34495e;
+}
