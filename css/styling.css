@@ -8,6 +8,9 @@ body section#about {
   padding: 100px 70px 120px 70px;
   color: #34495e;
 }
+body section#about.col-lg-8 {
+  color: red;
+}
 body section#president-blurb {
   padding: 70px 70px;
   background-color: #01647e;
