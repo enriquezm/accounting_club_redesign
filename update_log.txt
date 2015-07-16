@@ -1,3 +1,16 @@
+<!-- Update 7/13 10:28 PM
+
+	Edited Calendar to have AC events... may need to redo with actual AC 
+	account that has calendar on it becasue curretly it is on mine
+
+						Account API Key: AIzaSyDSKmTXMewzH4xMHhlcnrlBS7ExPEcJ5W8
+						Fundraising : ij0akh2vqr87aqq7lcp5a003gs@group.calendar.google.com
+						IBC Events: 1julrncpcordt32vi4pelqsl7k@group.calendar.google.com
+						Mandatory Events: gcl71faaqgtsef1k5i8204mt8c@group.calendar.google.com
+						Professional Events: k27bl1a2a3rbqj70gd5ui3ir6o@group.calendar.google.com
+						Student Relations : rtu7mjc01bpb61t1pt3rbkgm7s@group.calendar.google.com
+						Community Service : oiu2ena8k3fgdrlc54ru7tmql8@group.calendar.google.com
+						Holidays: en.usa#holiday@group.v.calendar.google.com 	
 <!-- Update 7/4 12:18 AM
 		
 	- Removed Updates from code and placed into UPDATE Log
