@@ -2,15 +2,21 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
 }
+body a {
+  color: #015064;
+}
 body a:hover {
   text-decoration: none;
 }
 body nav.navbar {
-  padding: 10px 10px;
+  padding: 5px 10px;
 }
 body section#about {
   padding: 100px 70px 120px 70px;
   color: #34495e;
+}
+body section#about #about-us-content {
+  padding: 10px 100px 50px 100px;
 }
 body section#president-blurb {
   padding: 70px 70px;
@@ -28,6 +34,9 @@ body section#testimonials {
 body section#membership {
   padding: 120px 120px;
   color: #34495e;
+}
+body section#membership .membership-content {
+  padding: 50px;
 }
 body section#events {
   padding: 70px 70px;
@@ -55,8 +64,4 @@ body .modal-content {
 body .modal-content .modal-body {
   width: 1000px;
   padding: 0px;
-}
-body #about-us-content {
-  padding-left: 100px;
-  padding-right: 100px;
 }
