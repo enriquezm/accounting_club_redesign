@@ -1,5 +1,9 @@
 body {
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
+}
+body a:hover {
+  text-decoration: none;
 }
 body nav.navbar {
   padding: 10px 10px;
@@ -7,9 +11,6 @@ body nav.navbar {
 body section#about {
   padding: 100px 70px 120px 70px;
   color: #34495e;
-}
-body section#about.col-lg-8 {
-  color: red;
 }
 body section#president-blurb {
   padding: 70px 70px;
@@ -41,4 +42,21 @@ body section#contact {
 body footer {
   padding: 40px 40px;
   color: #34495e;
+}
+body .modal-content {
+  position: relative;
+  top: 100px;
+  left: -120px;
+  width: 1000px;
+  padding: 10px;
+  background-color: #edeff4;
+  color: #34495e;
+}
+body .modal-content .modal-body {
+  width: 1000px;
+  padding: 0px;
+}
+body #about-us-content {
+  padding-left: 100px;
+  padding-right: 100px;
 }

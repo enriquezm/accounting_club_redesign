@@ -9,6 +9,12 @@
 //Mixins
 
 body {
+	font-family: 'Raleway', sans-serif;
+	a {
+		&:hover {
+			text-decoration: none;
+		}
+	}
 	font-size: 18px;
 	nav.navbar {
 		padding: 10px 10px;
@@ -19,9 +25,6 @@ body {
 	section#about {
 		padding: 100px 70px 120px 70px;
 		color: @flat-wet-asphalt;
-		&.col-lg-8 {
-			color: red;
-		}
 	}
 	section#president-blurb {
 		padding: 70px 70px;
@@ -54,7 +57,22 @@ body {
 		padding: 40px 40px;
 		color: @flat-wet-asphalt;
 	}
-	div.modal {
-		
+	.modal-content {
+		position: relative;
+		top: 100px;
+		left: -120px;
+		width: 1000px;
+		padding: 10px;
+		background-color: @cloud-white;
+		color: @flat-wet-asphalt;
+		.modal-body {
+			width: 1000px;
+			padding: 0px;
+		}
 	}
+	#about-us-content {
+				padding-left: 100px;
+				padding-right: 100px;
+			}
+	
 }
