@@ -26,6 +26,9 @@ body section#president-blurb {
 body section#executiveboard {
   padding: 100px 100px;
 }
+body section#executiveboard .board-container {
+  margin-bottom: 50px;
+}
 body section#testimonials {
   padding: 80px 80px;
   background-color: #01647e;
